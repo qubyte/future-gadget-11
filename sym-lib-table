@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name kbd)(type Legacy)(uri /Volumes/code/future-gadget-11/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
+  (lib (name mx-alps)(type Legacy)(uri "/Volumes/code/future-gadget-11/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+)
