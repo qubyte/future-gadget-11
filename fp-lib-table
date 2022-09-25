@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name kbd)(type KiCad)(uri /Volumes/code/future-gadget-11/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
   (lib (name future-gadget-11)(type KiCad)(uri ${KIPRJMOD}/future-gadget-11.pretty)(options "")(descr ""))
+  (lib (name panelization)(type KiCad)(uri /Volumes/code/future-gadget-11/keyboard_footprints/panelization.pretty)(options "")(descr ""))
 )

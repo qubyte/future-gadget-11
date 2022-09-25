@@ -1,0 +1,16 @@
+(module SW_Hole_Choc (layer F.Cu) (tedit 63300FBC)
+  (fp_text reference choc (at -6.85 -8.45) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value choc (at 4.95 -8.6) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 9.525 9.525) (end 9.525 -9.525) (layer F.Fab) (width 0.15))
+  (fp_line (start -9.525 9.525) (end 9.525 9.525) (layer F.Fab) (width 0.15))
+  (fp_line (start -9.525 -9.525) (end -9.525 9.525) (layer F.Fab) (width 0.15))
+  (fp_line (start 9.525 -9.525) (end -9.525 -9.525) (layer F.Fab) (width 0.15))
+  (fp_line (start -6.9 -6.9) (end -6.9 6.9) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start -6.9 6.9) (end 6.9 6.9) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start 6.9 6.9) (end 6.9 -6.9) (layer Edge.Cuts) (width 0.12))
+  (fp_line (start 6.9 -6.9) (end -6.9 -6.9) (layer Edge.Cuts) (width 0.12))
+)
