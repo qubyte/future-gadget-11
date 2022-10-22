@@ -508,13 +508,13 @@ Text GLabel 5800 5350 2    50   Input ~ 0
 col10-j2
 Text GLabel 5800 5750 2    50   Input ~ 0
 col6-j2
-Text GLabel 5050 1600 0    50   Input ~ 0
+Text GLabel 5050 1900 0    50   Input ~ 0
 row1
 Text GLabel 5050 1700 0    50   Input ~ 0
 row2
-Text GLabel 5050 1800 0    50   Input ~ 0
+Text GLabel 5050 1600 0    50   Input ~ 0
 row3
-Text GLabel 5050 1900 0    50   Input ~ 0
+Text GLabel 6450 1800 2    50   Input ~ 0
 row4
 Text GLabel 5050 2300 0    50   Input ~ 0
 col1
@@ -524,7 +524,7 @@ Text GLabel 5050 2100 0    50   Input ~ 0
 col3
 Text GLabel 5050 2000 0    50   Input ~ 0
 col4
-Text GLabel 6450 1800 2    50   Input ~ 0
+Text GLabel 5050 1800 0    50   Input ~ 0
 col5
 Text GLabel 6450 1900 2    50   Input ~ 0
 col6-j1
@@ -1157,4 +1157,27 @@ Connection ~ 7550 5300
 Wire Wire Line
 	7950 5300 7950 6000
 Connection ~ 7950 5300
+$Comp
+L Switch:SW_Push reset1
+U 1 1 635F7836
+P 6850 1350
+F 0 "reset1" V 6850 1302 50  0000 R CNN
+F 1 "SW_Push" V 6805 1302 50  0001 R CNN
+F 2 "kbd:ResetSW_1side" H 6850 1550 50  0001 C CNN
+F 3 "~" H 6850 1550 50  0001 C CNN
+	1    6850 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 1550 6700 1550
+Wire Wire Line
+	6700 1550 6700 1400
+Wire Wire Line
+	6700 1400 6450 1400
+Wire Wire Line
+	6850 1150 6700 1150
+Wire Wire Line
+	6700 1150 6700 1300
+Wire Wire Line
+	6700 1300 6450 1300
 $EndSCHEMATC
